@@ -1,0 +1,20 @@
+title: restful.ws 
+#email: cjaccino@gmail.com
+description: REST and RESTful Web Services
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+#Minima Author Section
+author:
+  name: Colin Jaccino
+  email: "colin.jaccino@gmail.com"
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+header_pages:
+- constraints.md
+- design-implications.md
+- reference.md
