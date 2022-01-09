@@ -10,8 +10,8 @@
       url: /rest/constraints/stateless.html
     - title: Caching
       url: /rest/constraints/caching.html
-    - title: Layout
-      url: /rest/constraints/layout.html
+    - title: Layered System
+      url: /rest/constraints/layered-system.html
     - title: Uniform Interface
       url: /rest/constraints/uniform-interface.html
       sublinks:
@@ -28,7 +28,7 @@
     - title: separator
     - title: Misconceptions
       url: /rest/misconceptions.html
-    - title: Design Implications
+    - title: Design Implications for APIs
       url: /rest/design-implications.html
     - title: separator
     - title: What is ROSI?
@@ -38,7 +38,7 @@
 - title: Modern Web Architecture
   sublinks:
     - title: Principles
-      url: /rest/understanding-rest
+      url: /web/principles.html
     - title: separator
     - title: Identifiers
       url: /web/identifiers.html
@@ -51,8 +51,21 @@
 
 - title: Reference
   sublinks:
-    - title: HTTP
+    - title: HTTP Syntax
+      url: /reference/http/syntax.html
+    - title: HTTP Semantics
+      sublinks:
+      - title: HTTP Request Methods
+        url: /reference/http/methods.html
+      - title: HTTP Request Headers
+        url: /reference/http/request-headers.html
+    - title: Syntax
       url: /reference/http.html
+    - title: separator
+    - title: Posters
+      sublinks:
+        - title: "RESTful Web Services and HTTP: Standards and Sources"
+          url: /posters/reference
 
 - title: About
   url: /about.html
