@@ -1,0 +1,58 @@
+- title: Defining REST
+  sublinks:
+    - title: Understanding REST
+      url: /rest/understanding-rest
+    - title: separator
+    - title: The Six (Ten) Constraints
+    - title: Client-Server
+      url: /constraints/client-server.html
+    - title: Stateless
+      url: /constraints/stateless.html
+    - title: Caching
+      url: /constraints/caching.html
+    - title: Layout
+      url: /constraints/layout.html
+    - title: Uniform Interface
+      url: /constraints/uniform-interface.html
+      sublinks:
+        - title: Resource Identification
+          url: /constraints/resource-identification.html
+        - title: Representations
+          url: /constraints/representations.html
+        - title: Self-descriptive Messages
+          url: /constraints/self-descriptive-messages.html
+        - title: Hypermedia
+          url: /constraints/hypermedia.html
+    - title: Code On Demand
+      url: /constraints/code-on-demand.html
+    - title: separator
+    - title: Misconceptions
+      url: /rest/misconceptions.html
+    - title: Design Implications
+      url: /rest/design-implications.html
+    - title: separator
+    - title: What is ROSI?
+      url: /rest/rosi.html
+
+
+- title: Modern Web Architecture
+  sublinks:
+    - title: Principles
+      url: /rest/understanding-rest
+    - title: separator
+    - title: Identifiers
+      url: /web/identifiers.html
+    - title: Content and Media Types
+      url: /web/content-and-media-types.html
+    - title: Linking
+      url: /web/linking.html
+    - title: Interacting
+      url: /web/interacting.html
+
+- title: Reference
+  sublinks:
+    - title: HTTP
+      url: /reference/http.html
+
+- title: About
+  url: /about.html

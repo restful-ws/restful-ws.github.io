@@ -1,0 +1,65 @@
+<header class="site-header">
+    {% assign links = site.data.navigation %}
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    {% for link in links %}
+                    {% assign class = nil %}
+                    {% if page.url contains link.url %}
+                    {% assign class = 'active' %}
+                    {% endif %}
+                    {% if link.sublinks %}
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {% for sublink in link.sublinks %}
+                            {% if sublink.title == 'separator' %}
+                            <li role="separator" class="divider"></li>
+                            {% else %}
+                            {% if sublink.url %}
+                            <li>
+                                <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                            </li>
+                            {% if sublink.sublinks %}
+                            {% for sublink in sublink.sublinks %}
+                            <li>
+                                <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}"><span class="glyphicon glyphicon-chevron-right"></span> {{ sublink.title }}</a>
+                            </li>
+                            {% endfor %}
+                            {% endif %}
+                            {% else %}
+                            <li class="dropdown-header">
+                                {{ sublink.title }}
+                            </li>
+                            {% endif %}
+                            {% endif %}
+                            {% endfor %}
+
+                        </ul>
+                        {% else %}
+                    <li class="{{ class }}">
+                        <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</header>
