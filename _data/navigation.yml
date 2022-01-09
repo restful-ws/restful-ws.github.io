@@ -1,30 +1,30 @@
 - title: Defining REST
   sublinks:
     - title: Understanding REST
-      url: /rest/understanding-rest
+      url: /rest/understanding-rest.html
     - title: separator
     - title: The Six (Ten) Constraints
     - title: Client-Server
-      url: /constraints/client-server.html
+      url: /rest/constraints/client-server.html
     - title: Stateless
-      url: /constraints/stateless.html
+      url: /rest/constraints/stateless.html
     - title: Caching
-      url: /constraints/caching.html
+      url: /rest/constraints/caching.html
     - title: Layout
-      url: /constraints/layout.html
+      url: /rest/constraints/layout.html
     - title: Uniform Interface
-      url: /constraints/uniform-interface.html
+      url: /rest/constraints/uniform-interface.html
       sublinks:
         - title: Resource Identification
-          url: /constraints/resource-identification.html
+          url: /rest/constraints/resource-identification.html
         - title: Representations
-          url: /constraints/representations.html
+          url: /rest/constraints/representations.html
         - title: Self-descriptive Messages
-          url: /constraints/self-descriptive-messages.html
+          url: /rest/constraints/self-descriptive-messages.html
         - title: Hypermedia
-          url: /constraints/hypermedia.html
+          url: /rest/constraints/hypermedia.html
     - title: Code On Demand
-      url: /constraints/code-on-demand.html
+      url: /rest/constraints/code-on-demand.html
     - title: separator
     - title: Misconceptions
       url: /rest/misconceptions.html
