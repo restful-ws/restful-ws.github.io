@@ -14,7 +14,9 @@ Source
 Regardless of service or resource offered or rendered, 
 the interface will be generic.
 
-This constraint relies on four additional constraints, described separately:
+This constraint relies on four additional constraints, 
+which play an integral role in defining services and
+resources:
 - [Resource Identification]()
 - [Representations]()
 - [Self-descriptive Messages]()
