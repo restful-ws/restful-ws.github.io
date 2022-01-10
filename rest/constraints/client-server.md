@@ -40,4 +40,11 @@ Per Fielding:
 > also allows the two types of components to evolve independently,
 > provided that the interface doesn't change.
 
+### Implications of Client-Server
 
+Design-time Separation Of Concerns
+: To achieve independent evolvability, Client and Server concerns must 
+be separated at both runtime and design time.
+
+Runtime Separation Of Concerns
+: TBD
