@@ -9,34 +9,30 @@ permalink: /rest/constraints/client-server.html
 Source
 : Fielding Dissertation, [Section 5.1.2](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_1_2)
 
-<hr/>
-**Source**: Fielding Dissertation, [Section 5.1.2](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_1_2)
+### The Constraint
 
-<hr/>
+All REST interactions are between _client_ and _server_.
 
-<dl>
-    <dt>Source</dt>
-    <dd>Fielding Dissertation, [Section 5.1.2](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_1_2)</dd>
-</dl>
+#### Defining Client and Server
+According to Fielding ([link](https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_4_1)):
+> A **server** component, offering a set of services, 
+> listens for requests upon those services. A **client** component, 
+> desiring that a service be performed, sends a request to the 
+> server via a connector. The **server** either rejects or performs the 
+> request and sends a response back to the client.
+> <br/> -- Fielding's dissertation, section  
 
-<hr/>
+### Rationale
 
-```http
-GET /hello HTTP/1.1
-Date: Jan 1, 2022
-Accept: */*
-Content-Type: text/plain
+The purpose of the Client-Server constraint is to enable _Separation of Concerns_.
 
-Hello
+Per Fielding:
+> Separation of concerns is the principle behind the client-server
+> constraints. A proper separation of functionality should simplify
+> the server component in order to improve scalability. This
+> simplification usually takes the form of moving all of the user
+> interface functionality into the client component. The separation
+> also allows the two types of components to evolve independently,
+> provided that the interface doesn't change.
 
-```
 
-<pre><code>
-GET /hello HTTP/1.1
-Date: Jan 1, 2022
-Accept: */*
-Content-Type: text/plain
-
-Hello
-</code>
-</pre>
