@@ -26,8 +26,13 @@ According to Fielding ([link](https://www.ics.uci.edu/~fielding/pubs/dissertatio
 
 The purpose of the Client-Server constraint is to enable _Separation of Concerns_.
 
+Benefits of Client-Server:
+- improves _scalability_
+- simplifies both client and server
+- enables client and server to evolve independently
+
 Per Fielding:
-> Separation of concerns is the principle behind the client-server
+> **Separation of concerns** is the principle behind the client-server
 > constraints. A proper separation of functionality should simplify
 > the server component in order to improve scalability. This
 > simplification usually takes the form of moving all of the user
