@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Understanding REST
-permalink: /rest/understanding-rest.html
+permalink: /rest/understanding-rest
 ---
 
 ## Understanding REST

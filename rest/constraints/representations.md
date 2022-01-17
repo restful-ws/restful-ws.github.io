@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Representations Contraint
-permalink: /rest/constraints/representations.html
+permalink: /rest/constraints/representations
 ---
 
 ## Manipulation of Resources through Representations

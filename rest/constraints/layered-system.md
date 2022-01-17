@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Layered System Contraint
-permalink: /rest/constraints/layered-system.html
+permalink: /rest/constraints/layered-system
 ---
 ## The Layered System Constraint
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hypermedia Contraint
-permalink: /rest/constraints/hypermedia.html
+permalink: /rest/constraints/hypermedia
 ---
 
 ## The Hypermedia Constraint

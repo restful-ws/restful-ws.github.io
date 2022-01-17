@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Uniform Interface Contraint
-permalink: /rest/constraints/uniform-interface.html
+permalink: /rest/constraints/uniform-interface
 ---
 
 ## The Uniform Interface Constraint

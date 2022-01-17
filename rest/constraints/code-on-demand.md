@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code On Demand Contraint
-permalink: /rest/constraints/code-on-demand.html
+permalink: /rest/constraints/code-on-demand
 ---
 
 ## The Code On Demand Constraint

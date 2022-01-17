@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Web Principles
-permalink: /web/principles.html
+permalink: /web/principles
 ---
 
 Web Principles

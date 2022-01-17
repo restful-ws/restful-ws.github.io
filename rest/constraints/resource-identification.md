@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resource Identification Contraint
-permalink: /rest/constraints/resource-identification.html
+permalink: /rest/constraints/resource-identification
 ---
 
 ## The Resource Identification Constraint

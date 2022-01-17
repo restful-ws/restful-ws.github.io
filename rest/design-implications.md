@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Design Implications for APIs
-permalink: /rest/constraints/design-implications.html
+permalink: /rest/design-implications
 ---
 
 ## Design Implications for Web APIs

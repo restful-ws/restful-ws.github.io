@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Caching Contraint
-permalink: /rest/constraints/caching.html
+permalink: /rest/constraints/caching
 ---
 
 ## The Caching Constraint

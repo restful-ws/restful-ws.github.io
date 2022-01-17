@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Client-Server Contraint
-permalink: /rest/constraints/client-server.html
+permalink: /rest/constraints/client-server
 ---
 
 ## The Client-Server Constraint

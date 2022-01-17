@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Misconceptions
-permalink: /rest/constraints/misconceptions.html
+permalink: /rest/constraints/misconceptions
 ---
 
 Misconceptions

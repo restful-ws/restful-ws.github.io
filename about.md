@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About restful.ws
-permalink: /
+permalink: /about
 ---
 
 restful.ws 

@@ -1,66 +1,66 @@
 - title: Defining REST
   sublinks:
     - title: Understanding REST
-      url: /rest/understanding-rest.html
+      url: /rest/understanding-rest
     - title: separator
     - title: The Six (Ten) Constraints
     - title: Client-Server
-      url: /rest/constraints/client-server.html
+      url: /rest/constraints/client-server
     - title: Stateless
-      url: /rest/constraints/stateless.html
+      url: /rest/constraints/stateless
     - title: Caching
-      url: /rest/constraints/caching.html
+      url: /rest/constraints/caching
     - title: Layered System
-      url: /rest/constraints/layered-system.html
+      url: /rest/constraints/layered-system
     - title: Uniform Interface
-      url: /rest/constraints/uniform-interface.html
+      url: /rest/constraints/uniform-interface
       sublinks:
         - title: Resource Identification
-          url: /rest/constraints/resource-identification.html
+          url: /rest/constraints/resource-identification
         - title: Representations
-          url: /rest/constraints/representations.html
+          url: /rest/constraints/representations
         - title: Self-descriptive Messages
-          url: /rest/constraints/self-descriptive-messages.html
+          url: /rest/constraints/self-descriptive-messages
         - title: Hypermedia
-          url: /rest/constraints/hypermedia.html
+          url: /rest/constraints/hypermedia
     - title: Code On Demand
-      url: /rest/constraints/code-on-demand.html
+      url: /rest/constraints/code-on-demand
     - title: separator
     - title: Misconceptions
-      url: /rest/misconceptions.html
+      url: /rest/misconceptions
     - title: Design Implications for APIs
-      url: /rest/design-implications.html
+      url: /rest/design-implications
     - title: separator
     - title: What is ROSI?
-      url: /rest/rosi.html
+      url: /rest/rosi
 
 
 - title: Modern Web Architecture
   sublinks:
     - title: Principles
-      url: /web/principles.html
+      url: /web/principles
     - title: separator
     - title: Identifiers
-      url: /web/identifiers.html
+      url: /web/identifiers
     - title: Content and Media Types
-      url: /web/content-and-media-types.html
+      url: /web/content-and-media-types
     - title: Linking
-      url: /web/linking.html
+      url: /web/linking
     - title: Interacting
-      url: /web/interacting.html
+      url: /web/interacting
 
 - title: Reference
   sublinks:
     - title: HTTP Syntax
-      url: /reference/http/syntax.html
+      url: /reference/http/syntax
     - title: HTTP Semantics
       sublinks:
       - title: HTTP Request Methods
-        url: /reference/http/methods.html
+        url: /reference/http/methods
       - title: HTTP Request Headers
-        url: /reference/http/request-headers.html
+        url: /reference/http/request-headers
     - title: Syntax
-      url: /reference/http.html
+      url: /reference/http
     - title: separator
     - title: Posters
       sublinks:
@@ -68,4 +68,4 @@
           url: /posters/reference
 
 - title: About
-  url: /about.html
+  url: /about

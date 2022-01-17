@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Client-Server Contraint
-permalink: /rest/constraints/stateless.html
+permalink: /rest/constraints/stateless
 ---
 
 ## The Stateless Constraint

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Self-descriptive Messages Contraint
-permalink: /rest/constraints/self-descriptive-messages.html
+permalink: /rest/constraints/self-descriptive-messages
 ---
 
 ## The Self-descriptive Messages Constraint
