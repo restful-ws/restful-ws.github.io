@@ -4,4 +4,4 @@ title: About restful.ws
 permalink: /
 ---
 
-About restful.ws 
+restful.ws 
