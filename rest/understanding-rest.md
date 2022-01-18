@@ -105,11 +105,11 @@ nature of the web, best captured by
 Tim Berners-Lee in the 
 [W3C's Design Issues Pages](https://www.w3.org/DesignIssues/).
 
-What were the web's key features?
+What were the Web's key features?
 
 A Browseable Web of Linked Documents
 : A user would use the Web through a *browser*
-that could consume present the web's documents.
+that could consume present the Web's documents.
 The documents would contain links, enabling
 the user to direct the browser to other 
 documents and interact with the Web's features.
@@ -149,7 +149,7 @@ able to support interactions with
 its user or consumer.
 
 Independently Evolvable
-: The Web's compoennts and content
+: The Web's components and content
 evolve independently.  Changes can
 occur without imposing technical 
 changes to other components. New 

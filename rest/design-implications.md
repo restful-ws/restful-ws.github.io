@@ -158,18 +158,31 @@ Counterintuitively, through the lense of REST
 and modern, there are a number of problems in
 common practice. 
 
-Inappropriate Client-Server Relationship
+Tight Client Coupling / Inappropriate Client-Server Relationship
 : Sharing URI templates with client developers
 breaks design independence. This tight coupling
 undermines independent evolvability. (See ROSI)
 
+Inadequate Resource Definition
+: TBD
+
+Unstable Resource Representations
+: TBD
+
+Commingled Application and Resource State
+: TBD
+
+Non-cachable Transient Representations
+: TBD
+
 Inadequate Self-description
-: asdfa
+: TBD
 
-API-centric, rather than Resource-Sentric Schemas
-: abc
+API-centric, rather than Resource-Centric Schemas
+: TBD
 
-
+Inconsistent Portfolio of APIs  
+: TBD
 
 
 
