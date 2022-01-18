@@ -51,8 +51,19 @@ a named media type with a
 structured syntax suffix,
 `application/fancy-resource+json`?
 
+4. Does the API avoid using links?
+
+Some APIs provide identifiers that
+indicate the type of link or the
+media type of the target resource.
+Others merely provide opaque, non-URI
+identifiers that point to the related
+resource.  In either of these cases...
 
 
+
+## TBD content
+...
 
 
 In a world of OpenAPI specification sharing,

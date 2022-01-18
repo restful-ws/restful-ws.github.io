@@ -26,10 +26,10 @@
     - title: Code On Demand
       url: /rest/constraints/code-on-demand
     - title: separator
-    - title: Misconceptions
-      url: /rest/misconceptions
     - title: Design Implications for APIs
       url: /rest/design-implications
+    - title: Misconceptions
+      url: /rest/misconceptions
     - title: separator
     - title: What is ROSI?
       url: /rest/rosi
