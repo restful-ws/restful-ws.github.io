@@ -10,9 +10,9 @@ The World Wide Web was among the most important
 inventions of the twentieth century.  It owes
 much of its success to REST, the architecture
 style that makes it work so well.  Decades after
-the REST and the Web were introduced, their
-importance in business, civil society, and
-the economy continue to grow.
+REST and the Web were introduced, their
+importance in business, civil society 
+and the global economy continue to grow.
 
 Despite its ubiquity and influence, REST remains
 broadly misunderstood. As a renaissance of
@@ -26,20 +26,25 @@ produce work that may better be described
 as Resource-Oriented Service Integration, 
 or ROSI.
 
-Despite the misappropriation of the term, 
-REST, as its creator originally conceived,
-provided something special.  Moreover,
-API authors who embrace REST as it
-was originally conceived may see tremendous
-opportunity in faithfully applying REST 
-to their work.
+Despite widespread 
+[misappropriation of the term](https://twobithistory.org/2020/06/28/rest.html), 
+REST, when understood as 
+its originator conceived,
+provides something quite special.  
+API authors who fully embrace 
+Fielding's REST achieve benefits 
+beyond what 
+resource-oriented Web API
+authors enjoy.
 
-For a REST Web Service designer aiming
-to produce faithfully REST-informed
-solutions this primer provides 
+For an API or Web Service
+author aiming
+to produce faithfully REST-based
+solutions, this primer provides 
 comprehensive, nuanced coverage of
-REST and the technologies that make
-the modern Web
+REST to enable their work to
+reach the potential of the modern
+Web.
 
 ### REST: Origins
 
@@ -53,16 +58,15 @@ states as its core activity.
 
 REST was invented in the mid-1990s 
 by Roy Fielding, who unveiled REST
-in his doctoral dissertation in 2000.
-Fielding, a primary author of the HTTP
-protocol specification.  HTTP, 
+in his 2000 doctoral dissertation. HTTP, 
 HyperText Transfer Protocol, is the
 primary protocol of the World Wide 
-Web. Fielding developed REST
-as a framework of constraints that
+Web. Fielding, one of HTTP's primary authors,
+developed REST
+as a collection of constraints that
 could explain and justify design
-choices made in HTTP's specification,
-constrains that would enable HTTP to
+choices made in its formal specification.
+REST's constraints
 bring to life the Web's most important
 features and advantages.
 
@@ -74,12 +78,14 @@ REST is an architecture style, a set
 of constraints that, when applied to
 a solution, produce the characteristics
 sought for the World Wide Web.  The
-World Wide Web itself is the network
+World Wide Web is the network
 of interconnected resources and 
 associated technologies, something
 pervasive, yet concrete, that 
 provides the Web's familiar content 
-and services.
+and services.  REST is the style,
+the Web is REST's premier 
+implementation.
 
 REST's constraints could be applied
 to an entirely separate solution.

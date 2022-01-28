@@ -202,6 +202,8 @@ URI Opacity: Clients do not read URIs.
 
 
 ### Resource Orientation
+REST is about Resources
+
 
 #### The Structured URI
 
