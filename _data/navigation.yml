@@ -39,7 +39,10 @@
   sublinks:
     - title: Principles
       url: /web/principles
+    - title: Client Competency
+      url: /web/client-competency
     - title: separator
+    - title: Building Blocks of the Web
     - title: Identifiers
       url: /web/identifiers
     - title: Content and Media Types

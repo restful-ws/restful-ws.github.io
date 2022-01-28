@@ -20,7 +20,7 @@ integrated solutions transforms the delivery of
 day-to-day services, the Web and REST provide
 the platform. The designers of Web-based
 solutions, in particular those claiming to
-provide "REST APIs", often unkowningly
+provide "REST APIs", often unknowingly
 misrepresent their work product.  They
 produce work that may better be described
 as Resource-Oriented Service Integration, 
@@ -45,7 +45,7 @@ the modern Web
 
 REST is the underlying architecture style
 of the World Wide Web.  It stands for
-_REpresentational State Transfer_, a
+_Representational State Transfer_, a
 term that captures how REST centers
 on the transfer of
 _digital representations_ of resource
@@ -107,7 +107,7 @@ Tim Berners-Lee in the
 
 What were the Web's key features?
 
-A Browseable Web of Linked Documents
+A Browsable Web of Linked Documents
 : A user would use the Web through a *browser*
 that could consume present the Web's documents.
 The documents would contain links, enabling
@@ -173,23 +173,38 @@ _primary_ constraints:
 
 Four additional constraints inform the 
 Uniform Interface constraint:
-- Resource Idenetification
+- Resource Identification
 - Manipulation of Resources through Representation
 - Self-describing Messages
 - Hypermedia (as the Engine of Application State)
 
-In this primer, the constraints will be described
-in depth.  
-
-
-
-
+The ten constraints ensure that web clients and
+web services have appropriate separation of concerns,
+convey the information necessary for each component
+to perform its tasks, avoid compromising state issues,
+and provide sufficiently informative messaging to
+make the interconnected web possible.
 
 ##### TBD - Informing Syntax, Semantics
 
+REST's constraints had a broad range of impacts.
+
+**Syntax**: REST requires a messaging protocol
+that can express messages (TBD)
+
+**Semantics**: REST requires a messaging protocol
+that can express messages (TBD)
+
+- HTTP Semantics
+- Representation Semantics
+- Resource Semantics
 
 
 
+REST is an architecture style that applies to
+solutions communicating 
+
+REST's constraints apply   
 
 ### REST for APIs: Often Misunderstood
 
