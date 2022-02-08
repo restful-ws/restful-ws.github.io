@@ -4,7 +4,7 @@ title: Understanding REST
 permalink: /rest/understanding-rest
 ---
 
-## Understanding REST
+# Understanding REST
 
 The World Wide Web was among the most important 
 inventions of the twentieth century.  It owes
@@ -80,10 +80,12 @@ a solution, produce the characteristics
 sought for the World Wide Web.  The
 World Wide Web is the network
 of interconnected resources and 
-associated technologies, something
-pervasive, yet concrete, that 
-provides the Web's familiar content 
-and services.  REST is the style,
+associated technologies; it is
+pervasive, yet concrete, and 
+provides the familiar content 
+and services we find through our
+browsers and Web API-enabled
+apps.  REST is the style,
 the Web is REST's premier 
 implementation.
 
@@ -154,7 +156,7 @@ network access needed, and be
 able to support interactions with
 its user or consumer.
 
-Independently Evolvable
+Independently Evolving Components
 : The Web's components and content
 evolve independently.  Changes can
 occur without imposing technical 
@@ -162,14 +164,19 @@ changes to other components. New
 content may be published without 
 requiring browser changes.
 
-TBD: This non-breaking thing is
-a big deal!  
+> TDB: Need to review this list against
+> Fielding, W3C:Web Architecture, and
+> W3C:Design Issues.
+>
+> Crucial elements may be missing,
+> such as the web's universal
+> namespace for resources.
 
 ### REST's Constraints in Brief
 
 Fielding's dissertation provided ten
 constraints for REST.  Six are 
-_primary_ constraints:
+_**primary**_ constraints:
 - Client-Server
 - Stateless
 - Caching
@@ -178,7 +185,7 @@ _primary_ constraints:
 - Code On Demand
 
 Four additional constraints inform the 
-Uniform Interface constraint:
+**_Uniform Interface_** constraint:
 - Resource Identification
 - Manipulation of Resources through Representation
 - Self-describing Messages
@@ -191,7 +198,19 @@ to perform its tasks, avoid compromising state issues,
 and provide sufficiently informative messaging to
 make the interconnected web possible.
 
-##### TBD - Informing Syntax, Semantics
+### Implications for REST solutions
+
+> **Loose Coupling** as a pattern that emerges from
+> multiple constraints.  Client-server, stateless,
+> layered system, uniform interface
+
+> **Client Competency** as a requirement that emerges
+> from Stateless and Self-descriptive Messages
+
+> **
+
+
+### Realizing REST in the Modern Web 
 
 REST's constraints had a broad range of impacts.
 
@@ -205,14 +224,20 @@ that can express messages (TBD)
 - Representation Semantics
 - Resource Semantics
 
+**Solution**: REST requires a messaging protocol
+that can express messages (TBD)
+
+### The Requirement for Client Competency
 
 
-REST is an architecture style that applies to
-solutions communicating 
 
-REST's constraints apply   
+
+
 
 ### REST for APIs: Often Misunderstood
 
+abc
+
 ### REST vs ROSI 
 
+abc

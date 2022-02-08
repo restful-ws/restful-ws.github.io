@@ -4,19 +4,19 @@ title: Caching Contraint
 permalink: /rest/constraints/caching
 ---
 
-## The Caching Constraint
+# The _Caching_ Constraint
 
 Source
 : Fielding Dissertation, [Section 5.1.4](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_1_4)
 
-### The Constraint
+## The Constraint
 
 Content cacheablity in responses must be implicitly or 
 explicitly indicated.  Clients (and intermediaries) have
 the right to use cached content in lieu of make
 equivalent requests later.
 
-#### Defining Caching
+### Defining Caching
 
 According to Fielding ([link](https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_4_3)):
 > A cache acts as a mediator between client and server 
@@ -26,7 +26,7 @@ According to Fielding ([link](https://www.ics.uci.edu/~fielding/pubs/dissertatio
 > in a response identical to that in the cache if the 
 > request were to be forwarded to the server.
 
-### Rationale
+## Rationale
 
 Cache improves efficiency and perceived application latency
 by eliminating the need for some transactions.  It also
@@ -38,10 +38,13 @@ when stale cached content
 is used, the user experience 
 can suffer due to its reliance on outdated information.
 
-### Implications of Caching
+## Observing Caching in the Modern Web
 
-Cacheability must be Planned 
-: TBD
+TBD: Cacheability in clients.
+
+TBD: Cacheability in intermediates
+
+## Implications of Caching
 
 Cacheability requires Resource State
 : TBD.  The ability to indicate that content
@@ -52,3 +55,8 @@ target of the request is transient or stateless,
 such as an RPC interface or a database-like
 query interface.
 
+Cacheability must be Planned
+: TBD
+
+Cacheability must be Tuned
+: TBD

@@ -3,12 +3,12 @@ layout: default
 title: Layered System Contraint
 permalink: /rest/constraints/layered-system
 ---
-## The Layered System Constraint
+# The _Layered System_ Constraint
 
 Source
 : Fielding Dissertation, [Section 5.1.6](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_1_6)
 
-### The Constraint
+## The Constraint
 
 The system may be composed of hierarchical layers; 
 no layer may have knowledge about the system beyond
@@ -17,7 +17,16 @@ the layer itself.
 The layered system constraint introduces the concept
 of intermediaries: gateways and proxies.
 
-#### Defining Layered System
+### Defining Layered System
+
+Strengthening REST's prescription for loose
+coupling and avoidance of intermingling component
+state, **Layered System** provides that components
+may not be designed with privileged information 
+about other components.  This design-time constraint
+prevents use-time intermingling and promotes
+interoperability.  By the roles of individual
+components narrow, it also improves scalability.
 
 According to Fielding ([link](https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_4_3)):
 > ...the layered system style allows an architecture 
@@ -37,7 +46,7 @@ According to Fielding ([link](https://www.ics.uci.edu/~fielding/pubs/dissertatio
 > enabling load balancing of services across multiple 
 > networks and processors.
 
-### Rationale
+## Rationale
 
 Layered System provides much of what is required
 for the Web to operated at Internet-scale.  It
@@ -53,7 +62,17 @@ Fielding identified, those
 layers require overhead and increase
 latency.
 
-### Implications of Uniform Interface
+## Observing Layered System in the Modern Web
+
+> TBD: The use of proxies
+
+> TBD: Reverse Proxies
+
+> TBD: API Gateways
+
+> TBD: Separation of Concerns goes beyond Client-Server
+
+## Implications of Layered System
 
 XYZ
 : TBD
