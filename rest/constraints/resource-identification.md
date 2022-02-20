@@ -13,7 +13,7 @@ Source
 
 REST interactions are always in the context of an identified resource.
 
-#### Defining Resource and Resource Identification
+#### Defining Resource Identification
 
 According to Fielding:
 > The key abstraction of information in REST is a resource.
@@ -96,12 +96,9 @@ domain boundaries.
 Of all the constraints, _Resource Identification_ may
 be the easiest to spot in the wild.
 
-
-### Examples
-- A
-- B
-
-### Implications of Resource Identification
+## Implications of Resource Identification
 
 XYZ
 : TBD
+
+## How to Mess It Up

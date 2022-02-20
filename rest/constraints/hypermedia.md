@@ -4,26 +4,16 @@ title: Hypermedia Contraint
 permalink: /rest/constraints/hypermedia
 ---
 
-## The Hypermedia Constraint
+## The _Hypermedia as the Engine of Application State_ Constraint
 
 Source
 : Fielding Dissertation, [Section 5.3.1](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_3_1)
 
 ### The Constraint
 
+A REST application's state is driven through transitions that occur through hypermedia links.
 
-
-#### Defining Self-descriptive Messages
-
-A self-descriptive message is one that contains
-everything needed to understand it.
-
-According to Fielding:
-> REST enables intermediate processing by constraining
-> messages to be self-descriptive: interaction is
-> stateless between requests, standard methods and media
-> types are used to indicate semantics and exchange
-> information, and responses explicitly indicate cacheability.
+#### Defining Hypermedia as the Engine of Application State
 
 
 ### Rationale
@@ -51,11 +41,13 @@ self-description relies on a level of
 _fluency_ or _competency_ in the message
 processor.
 
-### Examples
-- A
-- B
+## Observing Hypermedia in the Modern Web
 
-### Implications of Resource Identification
+
+### Implications of Hypermedia
 
 The requirement for client competency
 : TBD
+
+
+## How to Mess It Up

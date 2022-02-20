@@ -17,10 +17,10 @@ the interface will be generic.
 This constraint relies on four additional constraints, 
 which play an integral role in defining services and
 resources:
-- [Resource Identification]()
-- [Representations]()
-- [Self-descriptive Messages]()
-- [Hypermedia]()
+- [Resource Identification](/rest/constraints/resource-identification): REST interactions are always in the context of an identified resource.
+- [Manipulation of Resources through Representation](/rest/constraints/representations): Resources are interacted with and manipulated by passing representations of the resource's current or intended state.
+- [Self-describing Messages](/rest/constraints/self-descriptive-messages): Each message must contain the information needed to understand the request.
+- [Hypermedia as the Engine of Application State](/rest/constraints/hypermedia): The application's state is driven through transitions that occur through hypermedia links.
 
 #### Defining Uniform Interface
 
@@ -93,5 +93,5 @@ to the generalized interface.
 # TBD: Client Competency: REST vs ROSI
 
 
-
+## How to Mess It Up
 

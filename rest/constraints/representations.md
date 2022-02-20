@@ -13,7 +13,7 @@ Source
 
 Resources are interacted with and manipulated by passing representations of the resource's current or intended state.
 
-#### Defining Resource and Resource Identification
+#### Defining Manipulation of Resources through Representations
 
 A representation is a digital sequence of bytes that
 expresses a resource's state, including any
@@ -60,13 +60,11 @@ message-bearing protocol's interaction semantics and metadata,
 the semantics of the resource, and the semantics
 of the representation format.
 
+## Observing Manipulation of Resources through Representations in the Modern Web
 
+TBD
 
-### Examples
-- A
-- B
-
-### Implications of Resource Identification
+## Implications of Manipulation of Resources through Representations
 
 Messaging Protocol Must Provide Interaction Methods 
 : asdf
@@ -77,3 +75,4 @@ The requirement for client competency
 Discarding resource-orientation does harm
 : TBD
 
+## How to Mess It Up

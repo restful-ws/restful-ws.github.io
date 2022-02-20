@@ -193,7 +193,7 @@ Four additional constraints inform the
 - [Resource Identification](/rest/constraints/resource-identification): REST interactions are always in the context of an identified resource.
 - [Manipulation of Resources through Representation](/rest/constraints/representations): Resources are interacted with and manipulated by passing representations of the resource's current or intended state. 
 - [Self-describing Messages](/rest/constraints/self-descriptive-messages): Each message must contain the information needed to understand the request.
-- [Hypermedia as the Engine of Application State](/rest/constraints/hypermedia): An application's state is driven through transitions that occur through hypermedia links.  
+- [Hypermedia as the Engine of Application State](/rest/constraints/hypermedia): The application's state is driven through transitions that occur through hypermedia links.  
 
 The ten constraints ensure that web clients and
 web services have appropriate separation of concerns,
@@ -287,7 +287,6 @@ This is due to the system violating the
 _Self-Describing Messages_ constraint, 
 the reliance on privileged out-of-message
 information to drive application state.
-
 
 ### REST for APIs: Often Misunderstood
 

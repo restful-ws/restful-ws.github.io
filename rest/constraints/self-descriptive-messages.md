@@ -48,7 +48,7 @@ self-description relies on a level of
 _fluency_ or _competency_ in the message
 processor.
 
-### Examples
+## Observing Self-descriptive Messages on the Modern Web
 - A
 - B
 
@@ -56,3 +56,5 @@ processor.
 
 The requirement for client competency
 : TBD
+
+## How to Mess It Up

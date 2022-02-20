@@ -83,7 +83,10 @@ Runtime Separation Of Concerns
 User Interface Concerns Abstracted from the Server
 : TBD
 
+## How to Mess It Up
+
 ## Diagrams
 
 > TBD: Client-server vs Peer-to-peer?
 > Is it useful to depict this?
+> 
