@@ -178,19 +178,19 @@ requiring browser changes.
 Fielding's dissertation provided ten
 constraints for REST.  Six are 
 _**primary**_ constraints:
-- [Client-Server](/rest/constraints/client-server)
-- Stateless
-- Caching
-- Uniform Interface
-- Layered System
-- Code On Demand
+- [Client-Server](/rest/constraints/client-server): REST interactions are between _client_ and _server_.  Supports _separation of concerns_.
+- [Stateless](/rest/constraints/stateless): Session state is _never_ stored with the server.
+- [Caching](/rest/constraints/caching): Components may cache responses when the cacheability is indicated.
+- [Uniform Interface](/rest/constraints/uniform-interface): Regardless of service or resource, its interface will be generic.
+- [Layered System](/rest/constraints/layered-system): No component or layer may have knowledge of the system beyond the layer itself.
+- [Code On Demand](/rest/constraints/code-on-demand): The server may facilitate client processing by providing code to the client.
 
 Four additional constraints inform the 
 **_Uniform Interface_** constraint:
-- Resource Identification
-- Manipulation of Resources through Representation
-- Self-describing Messages
-- Hypermedia (as the Engine of Application State)
+- [Resource Identification](/rest/constraints/resource-identification): REST interactions are always in the context of an identified resource.
+- [Manipulation of Resources through Representation](/rest/constraints/representations): Resources are interacted with and manipulated by passing representations of the resource's current or intended state. 
+- [Self-describing Messages](/rest/constraints/self-descriptive-messages): Each message must contain the information needed to understand the request.
+- [Hypermedia as the Engine of Application State](/rest/constraints/hypermedia): An application's state is driven through transitions that occur through hypermedia links.  
 
 The ten constraints ensure that web clients and
 web services have appropriate separation of concerns,
@@ -228,10 +228,6 @@ With organizations pursuing API-led
 digital transformation, REST provides
 an ideal foundation for expressing
 their resources and capabilities.
-
-
-
-
 
 
 
