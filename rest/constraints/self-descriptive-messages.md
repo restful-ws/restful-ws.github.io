@@ -11,13 +11,9 @@ Source
 
 ### The Constraint
 
-
-Resources are interacted with and manipulated by passing representations of the resource's current or intended state.
+Each message must contain the information needed to understand the request.
 
 #### Defining Self-descriptive Messages
-
-A self-descriptive message is one that contains
-everything needed to understand it.
 
 According to Fielding:
 > REST enables intermediate processing by constraining

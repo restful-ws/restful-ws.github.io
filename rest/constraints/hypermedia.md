@@ -12,7 +12,6 @@ Source
 ### The Constraint
 
 
-Resources are interacted with and manipulated by passing representations of the resource's current or intended state.
 
 #### Defining Self-descriptive Messages
 

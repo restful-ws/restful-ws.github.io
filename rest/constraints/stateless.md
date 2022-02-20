@@ -11,10 +11,9 @@ Source
 
 ## The Constraint
 
-Session state is _never_ stored with the server.  Each request must contain the
-information needed to understand the request.
+Session state is _never_ stored with the server.
 
-In other words, the server may not store information needed to understand the
+In other words, the server must not store information needed to understand the
 client's request.
 
 ### Defining Stateless

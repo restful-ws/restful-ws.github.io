@@ -56,7 +56,7 @@ on the transfer of
 _digital representations_ of resource
 states as its core activity.
 
-REST was invented in the mid-1990s 
+REST was conceived in the mid-1990s 
 by Roy Fielding, who unveiled REST
 in his 2000 doctoral dissertation. HTTP, 
 HyperText Transfer Protocol, is the
@@ -115,12 +115,14 @@ Tim Berners-Lee in the
 
 What were the Web's key features?
 
-A Browsable Web of Linked Documents
+A Browsable Web of Linked Resources
 : A user would use the Web through a *browser*
-that could consume present the Web's documents.
-The documents would contain links, enabling
+that could consume present the Web's 
+resources, usually documents.
+The representations, often HTML, 
+would contain links, enabling
 the user to direct the browser to other 
-documents and interact with the Web's features.
+resources and interact with the Web's features.
 
 Anarchically Managed Systems and Content
 : Content can be contributed by anyone.
@@ -130,17 +132,16 @@ managed independently, with no requirement
 for coordination.
 
 Durability, Reliability
-: The failure of an individual system would not
-impact the reliability of the Web.  The
-underlying mechanics of the Web enable and
+: The failure of an individual system should
+not impact the reliability of the Web.  The
+underlying mechanics of the Web should
 promote resilience of the independent systems
 and of any individual resource.  
 
 Multimedia, A Diversity of Content Types
-: Though a number of primary content types
-were favored, the web could support any
-type of content that a browser could
-understand.  Readable documents, video,
+: The web should support any
+type of content that a browser or client
+can understand.  Readable documents, video,
 still images, audio, interactive content,
 structured content, and anything that
 could be conveyed in digital form
@@ -149,7 +150,8 @@ was in focus.
 Low Technical Requirement For Access
 : Despite the flexibility, the minimum
 requirements for accessing the Web
-are low; the client must understand
+should be low; 
+the client must understand
 HTTP semantics, the media formats it
 expects to encounter, have the 
 network access needed, and be
@@ -160,9 +162,9 @@ Independently Evolving Components
 : The Web's components and content
 evolve independently.  Changes can
 occur without imposing technical 
-changes to other components. New 
-content may be published without 
-requiring browser changes.
+changes to other components. 
+For example, newly published content
+should require browser changes.
 
 
 > TDB: Need to review this list against
@@ -175,9 +177,10 @@ requiring browser changes.
 
 ### REST's Constraints in Brief
 
-Fielding's dissertation provided ten
-constraints for REST.  Six are 
-_**primary**_ constraints:
+Fielding's dissertation provided REST's ten
+constraints.   
+
+Six are _**primary**_ constraints:
 - [Client-Server](/rest/constraints/client-server): REST interactions are between _client_ and _server_.  Supports _separation of concerns_.
 - [Stateless](/rest/constraints/stateless): Session state is _never_ stored with the server.
 - [Caching](/rest/constraints/caching): Components may cache responses when the cacheability is indicated.
@@ -230,8 +233,6 @@ an ideal foundation for expressing
 their resources and capabilities.
 
 
-
-
 ### Realizing REST in the Modern Web 
 
 REST's constraints had a broad range of impacts.
@@ -251,9 +252,41 @@ that can express messages (TBD)
 
 ### The Requirement for Client Competency
 
+_Client Competency_, which may also be
+referred to as _component_ or _observer_
+_competency_, are the capabilities needed
+to understand the REST messages pertaining
+to the component's function.
 
+For the modern web, any client must 
+understand HTTP message construction.
+The client must understand HTTP semantics,
+the request methods, response codes, the
+use of URIs, and the request and response
+headers it will encounter.
 
+Crucially, the client must understand the
+media types it will encounter.  A typical
+web browser will understand HTML, CSS,
+Javascript, web fonts, image formats, 
+and audio/video formats.  Other types
+of web clients may support a completely
+different set of formats, but will have
+HTTP protocol semantics in common.
 
+Beyond having a single URI as
+a starting point, a REST client may
+**not** be designed with knowledge of
+the URI surface of a server or service.
+Despite it being common for
+URI and URI-associated schema sharing
+to enable HTTP API clients
+to interact with services, the
+practice results in a non-REST solution.
+This is due to the system violating the 
+_Self-Describing Messages_ constraint, 
+the reliance on privileged out-of-message
+information to drive application state.
 
 
 ### REST for APIs: Often Misunderstood
