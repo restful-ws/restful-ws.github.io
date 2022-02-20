@@ -164,6 +164,7 @@ changes to other components. New
 content may be published without 
 requiring browser changes.
 
+
 > TDB: Need to review this list against
 > Fielding, W3C:Web Architecture, and
 > W3C:Design Issues.
@@ -177,7 +178,7 @@ requiring browser changes.
 Fielding's dissertation provided ten
 constraints for REST.  Six are 
 _**primary**_ constraints:
-- Client-Server
+- [Client-Server](/rest/constraints/client-server)
 - Stateless
 - Caching
 - Uniform Interface
@@ -207,7 +208,32 @@ make the interconnected web possible.
 > **Client Competency** as a requirement that emerges
 > from Stateless and Self-descriptive Messages
 
-> **
+Semantic Observability, Managability
+: For sufficiently competent observer,
+REST messages contain everything needed
+to understand the message's meaning.
+No out-of-band information needed and
+no privileged state-related information
+must be known to interpret the message.
+In addition to providing beneficial
+architectural advantages, 
+Semantic Observability means that a
+solution's communication can be managed.
+**TBD** Externalized management of
+semantics is a game changer; monolithic
+architectures and solutions with
+privileged meaning embedded in messaging
+are harder to manage by businesses.
+With organizations pursuing API-led
+digital transformation, REST provides
+an ideal foundation for expressing
+their resources and capabilities.
+
+
+
+
+
+
 
 
 ### Realizing REST in the Modern Web 
