@@ -58,3 +58,8 @@ The requirement for client competency
 : TBD
 
 ## How to Mess It Up
+
+- Assume a structured format describes your message
+- Rely on privileged information in messaging
+- Abuse HTTP Method or Response Status semantics
+- 

@@ -1,4 +1,4 @@
----
+`---
 layout: default
 title: Understanding REST
 permalink: /rest/understanding-rest
@@ -18,8 +18,8 @@ Despite its ubiquity and influence, REST remains
 broadly misunderstood. As a renaissance of
 integrated solutions transforms the delivery of
 day-to-day services, the Web and REST provide
-the platform. The designers of Web-based
-solutions, in particular those claiming to
+the platform. The designers of web services,
+in particular those claiming to
 provide "REST APIs", often unknowingly
 misrepresent their work product.  They
 produce work that may better be described
@@ -46,7 +46,7 @@ REST to enable their work to
 reach the potential of the modern
 Web.
 
-### REST: Origins
+## Origins
 
 REST is the underlying architecture style
 of the World Wide Web.  It stands for
@@ -70,13 +70,13 @@ REST's constraints
 bring to life the Web's most important
 features and advantages.
 
-### REST vs the Web
+## REST vs the Web
 
 Despite a strong association, REST and
 the World Wide Web are not the same.
 REST is an architecture style, a set
 of constraints that, when applied to
-a solution, produce the characteristics
+a system, produces the characteristics
 sought for the World Wide Web.  The
 World Wide Web is the network
 of interconnected resources and 
@@ -102,7 +102,7 @@ Web is a REST-based solution, but
 not all REST-based solutions are
 the Web.
 
-### What Was REST Aiming For?
+## What Was REST Aiming For?
 
 In drafting the HTTP standard, Fielding 
 and the HTTP specification drafting team 
@@ -175,7 +175,7 @@ should require browser changes.
 > such as the web's universal
 > namespace for resources.
 
-### REST's Constraints in Brief
+## REST's Constraints in Brief
 
 Fielding's dissertation provided REST's ten
 constraints.   
@@ -202,7 +202,7 @@ to perform its tasks, avoid compromising state issues,
 and provide sufficiently informative messaging to
 make the interconnected web possible.
 
-### Implications for REST solutions
+## Implications for REST solutions
 
 > **Loose Coupling** as a pattern that emerges from
 > multiple constraints.  Client-server, stateless,
@@ -233,7 +233,7 @@ an ideal foundation for expressing
 their resources and capabilities.
 
 
-### Realizing REST in the Modern Web 
+## Realizing REST in the Modern Web 
 
 REST's constraints had a broad range of impacts.
 
@@ -250,7 +250,7 @@ that can express messages (TBD)
 **Solution**: REST requires a messaging protocol
 that can express messages (TBD)
 
-### The Requirement for Client Competency
+### The Client Competency Requirement
 
 _Client Competency_, which may also be
 referred to as _component_ or _observer_
@@ -282,16 +282,33 @@ Despite it being common for
 URI and URI-associated schema sharing
 to enable HTTP API clients
 to interact with services, the
-practice results in a non-REST solution.
+practice results in a non-REST system.
 This is due to the system violating the 
 _Self-Describing Messages_ constraint, 
 the reliance on privileged out-of-message
 information to drive application state.
 
+## Manageable Semantics: The Externalization of System Semantics
+
+Since REST makes a system's communication
+observable and externally undestandable.
+This exposure of a system's semantics
+gives rise to the opportunity to manage
+the meaning conveyed in the system. 
+Alongside the resource-oriented nature 
+of REST communication, the architecture
+style is a good fit for enabling realization of
+entity-modeled systems.
+
+TBD: Go further to suggest that whole-enterprise
+transformation through domain-driven reduction and
+REST-based realization is a good idea?
+
+
 ### REST for APIs: Often Misunderstood
 
 abc
-
+`
 ### REST vs ROSI 
 
 abc

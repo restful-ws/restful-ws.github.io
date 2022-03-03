@@ -102,3 +102,7 @@ XYZ
 : TBD
 
 ## How to Mess It Up
+
+- For many resources, use the same Identifier/URI
+
+- Fail to define the resource your URI identifies

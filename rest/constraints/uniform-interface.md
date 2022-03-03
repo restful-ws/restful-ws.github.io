@@ -80,18 +80,20 @@ to the generalized interface.
 >> And so on
 
 
-### Implications of Uniform Interface
+## Implications of Uniform Interface
 
 > Client Competency
 
 > Design Implication:  What About My Interface Semantics?
 
-### Diagrams
-
-# TBD: Service-specific Interfaces vs Generic Interfaces
-
-# TBD: Client Competency: REST vs ROSI
-
 
 ## How to Mess It Up
+
+- Invent your own HTTP Methods
+
+- Ignore protocol method semantics
+
+- Use POST for Everything
+
+- Interpret HTTP Semantics as CRUD
 

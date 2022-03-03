@@ -76,3 +76,6 @@ Discarding resource-orientation does harm
 : TBD
 
 ## How to Mess It Up
+
+- Define a different Input and Output Representation
+

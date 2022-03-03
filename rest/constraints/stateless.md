@@ -30,25 +30,27 @@ According to Fielding ([link](https://www.ics.uci.edu/~fielding/pubs/dissertatio
 
 _Stateless_ requires that a system, *by design*, avoids
 server-side management of client state.  Strengthening
-[client-server]() separation, the constraint 
+[client-server](/rest/constraints/client-server) 
+separation and 
+[Self-descriptive Messages](/rest/constraints/self-descriptive-messages),
+the constraint 
 doubles down on avoidance of client-server
-intermingling, both in design and in the
-application session.
+intermingling, both in design and in use.
 
 A number of architectural anti-patterns can be seen
 when client and server are intermingled.
 1. Server-managed client state introduces
-a point of failure that should not exist.
+a failure point that need not exist.
 2. Server management of client state requires
 data persistence and processing which, at scale,
-can prevent the solution from performing.
+can impede server performance.
 3. Management of client state ensures that
 the meaning of a request cannot be understood
 through the message alone, undermining the
 [Self-Descriptive Messages]() constraint and
 its benefits.
 
-In Fielding's [describes]() words, the _    _ constraint provides 
+In Fielding's words, the _Stateless_ constraint provides 
 visibility, reliability, and scalability.
 
 > Visibility is improved because a monitoring system does 
@@ -82,16 +84,29 @@ control over application behavior.
 
 ## Implications of Stateless
 
-Client State == Application state
-: TBD
+Together, the _Client-Server_, _Stateless_, and
+resource-oriented constraints that 
+support _Uniform Interface_ lead to the
+separation of application state from resource 
+state. 
 
-Server State == Resource State
-: TBD
+**Client** is responsible for **application state**.
+**Server** is responsible for **resource state**.
 
-Client State vs Server State 
-: TBD
+The clean separation of application and resource state,
+a part of separating of client and server concerns, 
+are part of what makes REST solutions scalable and
+evolvable.
 
 TBD: What about other components?
 : TBD
 
 ## How to Mess It Up
+
+To undermine client-server separation:
+1. Design the client and server together.
+2. Manage application state on the server. This includes producing
+cookies for the client to store that only the server understands.
+3. Build intermediaries that understand and manipulate messages
+according to privileged information about the client, server, or resource.
+
