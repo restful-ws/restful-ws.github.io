@@ -44,6 +44,8 @@ TBD: Cacheability in clients.
 
 TBD: Cacheability in intermediates
 
+TBD: Explain specific caching conversations
+
 ## Implications of Caching
 
 Cacheability requires Resource State

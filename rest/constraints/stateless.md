@@ -110,3 +110,11 @@ cookies for the client to store that only the server understands.
 3. Build intermediaries that understand and manipulate messages
 according to privileged information about the client, server, or resource.
 
+
+
+
+
+
+
+
+
