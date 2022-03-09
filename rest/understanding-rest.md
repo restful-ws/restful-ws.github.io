@@ -8,7 +8,7 @@ permalink: /rest/understanding-rest
 # Understanding REST
 
 Widely misunderstood, REST is the architecture style
-developed in the 1990's to justify desigin decisions
+developed in the 1990's to justify design decisions
 for the HTTP protocol's IETF specification.
 
 REST does not a type of API; it describes 
@@ -18,6 +18,19 @@ provided its inspiration, the World Wide Web,
 its underlying protocol, HTTP, and the design
 assumptions that enable conforming solutions
 to enjoy its benefits.
+
+REST stands for
+_Representational State Transfer_, a
+term describing REST's pattern of
+transferring _digital representations_ of resource
+states as its core activity.  A REST client
+interacts with server-managed resources through
+resource identifiers via a uniform set of
+methods provided by the protocol.  The
+server indicates the state of the resource
+in representations; the client provides
+desired state in interactions with the server.
+
 
 ## Background
 
@@ -51,30 +64,6 @@ comprehensive, nuanced coverage of
 REST to enable their work to
 reach the potential of the modern
 Web.
-
-## Origins
-
-REST is the underlying architecture style
-of the World Wide Web.  It stands for
-_Representational State Transfer_, a
-term that captures how REST centers
-on the transfer of
-_digital representations_ of resource
-states as its core activity.
-
-REST was conceived in the mid-1990s 
-by Roy Fielding, who unveiled REST
-in his 2000 doctoral dissertation. HTTP, 
-HyperText Transfer Protocol, is the
-primary protocol of the World Wide 
-Web. Fielding, one of HTTP's primary authors,
-developed REST
-as a collection of constraints that
-could explain and justify design
-choices made in its formal specification.
-REST's constraints
-bring to life the Web's most important
-features and advantages.
 
 ## REST vs the Web
 
