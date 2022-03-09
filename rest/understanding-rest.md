@@ -1,8 +1,9 @@
-`---
+---
 layout: default
 title: Understanding REST
 permalink: /rest/understanding-rest
 ---
+
 
 # Understanding REST
 
@@ -30,10 +31,8 @@ Despite widespread
 [misappropriation of the term](https://twobithistory.org/2020/06/28/rest.html), 
 REST, when understood as 
 its originator conceived,
-provides something quite special.  
-API authors who fully embrace 
-Fielding's REST achieve benefits 
-beyond what 
+is something quite special. API authors who embrace 
+Fielding's REST achieve benefits beyond what 
 resource-oriented Web API
 authors enjoy.
 
@@ -102,18 +101,19 @@ Web is a REST-based solution, but
 not all REST-based solutions are
 the Web.
 
-## What Was REST Aiming For?
+## What Was Fielding Aiming for with REST?
 
 In drafting the HTTP standard, Fielding 
-and the HTTP specification drafting team 
+and the HTTP specification team 
 had the Web's key features in mind.  
-Meanwhile, the same team was involved
-in a much larger conversation about the
-nature of the web, best captured by
-Tim Berners-Lee in the 
+Meanwhile, there was a much larger 
+conversation about the
+nature of the web.  Much of 
+this can be found in
+Tim Berners-Lee's notes on the  
 [W3C's Design Issues Pages](https://www.w3.org/DesignIssues/).
 
-What were the Web's key features?
+### What were the Web's key features?
 
 A Browsable Web of Linked Resources
 : A user would use the Web through a *browser*
