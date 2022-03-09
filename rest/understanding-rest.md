@@ -7,6 +7,20 @@ permalink: /rest/understanding-rest
 
 # Understanding REST
 
+Widely misunderstood, REST is the architecture style
+developed in the 1990's to justify desigin decisions
+for the HTTP protocol's IETF specification.
+
+REST does not a type of API; it describes 
+solutions designed with Roy Fielding's ten 
+constraints. REST describes the solution that
+provided its inspiration, the World Wide Web,
+its underlying protocol, HTTP, and the design
+assumptions that enable conforming solutions
+to enjoy its benefits.
+
+## Background
+
 The World Wide Web was among the most important 
 inventions of the twentieth century.  It owes
 much of its success to REST, the architecture
@@ -16,25 +30,18 @@ importance in business, civil society
 and the global economy continue to grow.
 
 Despite its ubiquity and influence, REST remains
-broadly misunderstood. As a renaissance of
-integrated solutions transforms the delivery of
-day-to-day services, the Web and REST provide
-the platform. The designers of web services,
+broadly misunderstood, arguably due to the term's
+[misappropriation](https://twobithistory.org/2020/06/28/rest.html).
+The designers of web services,
 in particular those claiming to
 provide "REST APIs", often unknowingly
 misrepresent their work product.  They
 produce work that may better be described
 as Resource-Oriented Service Integration, 
-or ROSI.
-
-Despite widespread 
-[misappropriation of the term](https://twobithistory.org/2020/06/28/rest.html), 
-REST, when understood as 
-its originator conceived,
-is something quite special. API authors who embrace 
-Fielding's REST achieve benefits beyond what 
-resource-oriented Web API
-authors enjoy.
+or ROSI. REST, when implemented as Fielding prescribes,
+results in a browseable, interconnected web
+of interactable resources that is scalable,
+evolvable, and anarchically manageable.
 
 For an API or Web Service
 author aiming
