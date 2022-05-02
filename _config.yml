@@ -1,7 +1,7 @@
 title: restful.ws 
 #email: cjaccino@gmail.com
 description: REST and RESTful Web Services
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "restful.ws.pdf" # the subpath of your site, e.g. /blog
 url: "https://restful-ws.github.io" # the base hostname & protocol for your site
 
 #Minima Author Section
